@@ -1,9 +1,6 @@
-import React, { FC, useEffect } from 'react';
+import { FC, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import {
-	getLoadingNews,
-	homePageUpdateState,
-} from '../../store/HomePage/actions';
+import { getLoadingNews } from '../../store/HomePage/actions';
 import { stateType } from '../../store/store';
 import { hackerNews } from '../types';
 

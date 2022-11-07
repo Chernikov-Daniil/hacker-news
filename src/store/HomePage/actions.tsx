@@ -12,7 +12,7 @@ export const homePageDownload = (news: hackerNews) =>
 type tHomePageDownload = ReturnType<typeof homePageDownload>;
 
 export const homePageUpdateState = () =>
-	({ type: HOMEPAGE_UPDATE_STATE} as const);
+	({ type: HOMEPAGE_UPDATE_STATE } as const);
 type tHomePageUpdatePage = ReturnType<typeof homePageUpdateState>;
 
 export const getLoadingNews = () => (dispatch: Dispatch) => {
