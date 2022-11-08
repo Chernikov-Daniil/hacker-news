@@ -1,7 +1,11 @@
 .footer {
 	margin: 0 auto;
+	margin-top: auto;
 	display: flex;
 	flex: 0 0 auto;
+	border-top: 2px solid purple;
+	width: 100%;
+	justify-content: center;
 
 	.wrpContent {
 		display: flex;

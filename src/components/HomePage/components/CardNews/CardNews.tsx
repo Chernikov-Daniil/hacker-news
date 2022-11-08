@@ -18,9 +18,6 @@ export const CardNews: FC<CardNewsProps> = ({
 	author,
 	publicationDate,
 }) => {
-	const getDate = (date: number | undefined): string =>
-		date ? new Date(date * 1000).toLocaleString() : '';
-
 	return (
 		<Card
 			title={`${numberNews}. ${title}`}
@@ -44,10 +41,8 @@ export const CardNews: FC<CardNewsProps> = ({
 				</p>
 			</div>
 		</Card>
-		// <div className={styles.boxCard}>
-		//     <div className={styles.title}>
-		//         {title}
-		//     </div>
-		// </div>
 	);
 };
+
+export const getDate = (date: number | undefined): string =>
+	date ? new Date(date * 1000).toLocaleString() : '';

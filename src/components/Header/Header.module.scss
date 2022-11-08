@@ -2,49 +2,7 @@
 	margin: 0 auto;
 	padding: 20px;
 	font-size: 28px;
-	color: rgb(239, 201, 239);
+	color: black;
 	display: flex;
-	align-items: center;
-
-	.update {
-		margin: 0 0 0 10px;
-	}
-
-	.btnUpdate {
-		border: none;
-		outline: none;
-		padding: 10px 23px 10px 10px;
-		border-radius: 10px;
-		margin: 0 0 0 10px;
-		background: purple;
-		color: white;
-		cursor: pointer;
-
-		&:disabled {
-			color: white;
-			outline: none;
-			background-color: gray;
-			&:hover {
-				outline: none;
-				color: white;
-				background-color: gray;
-			}
-			&:active {
-				color: white;
-				background-color: gray;
-			}
-		}
-
-		&:hover {
-			background: transparent;
-			outline: 1px solid black;
-			color: purple;
-		}
-
-		&:active {
-			border: none;
-			background: purple;
-			color: white;
-		}
-	}
+	justify-content: center;
 }
