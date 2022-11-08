@@ -3,7 +3,7 @@ export type hackerNews = {
     by?: string,
     type?:string,
     title?:string,
-    time?: string,
+    time?: number,
     text?: string,
     url?: string,
     kids?: number[],

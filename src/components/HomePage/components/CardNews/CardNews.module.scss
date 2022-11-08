@@ -1,0 +1,55 @@
+.boxCard {
+	width: 500px;
+	margin: 0 0 20px 0;
+	padding: 15px;
+	box-sizing: border-box;
+	color: purple;
+	font-size: 24px;
+	font-weight: bold;
+	background-color: #f8f6f6;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px rgba(38, 46, 35, 0.75);
+	animation-duration: 1s;
+
+	&:hover {
+		background-color: rgb(231, 200, 237);
+		color: white;
+		cursor: pointer;
+	}
+
+	&:active {
+		background-color: #f8f6f6;
+		color: purple;
+	}
+
+	.cardBody {
+		font-weight: normal;
+		color: rgb(55, 143, 80);
+		text-shadow: none;
+		margin: 20px 0 0 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+
+		.wrp {
+			display: flex;
+			align-items: baseline;
+		}
+
+		.author,
+		.date,
+		.score {
+			font-size: 12px;
+			flex-grow: 1;
+		}
+
+		.author {
+			margin: 0 20px 0 0;
+		}
+
+		.score {
+			display: flex;
+			justify-content: flex-end;
+		}
+	}
+}

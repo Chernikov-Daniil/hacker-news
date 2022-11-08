@@ -1,0 +1,17 @@
+.footer {
+	margin: 0 auto;
+	display: flex;
+	flex: 0 0 auto;
+
+	.wrpContent {
+		display: flex;
+		height: 50px;
+		align-items: center;
+
+		.link {
+			display: block;
+			color: black;
+			margin: 0 5px 0 0;
+		}
+	}
+}
